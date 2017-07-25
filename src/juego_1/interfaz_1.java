@@ -8,7 +8,7 @@ public class interfaz_1 extends javax.swing.JFrame {
         initComponents();
         setTitle("Juego Natacion");
         setLocationRelativeTo(null);
-        //se crea instancia a panel de animacion y se añade a la interfaz
+        //se crea instancia a panel de animacion y se añade a la interfa
         pizarra = new panel(this.jPanel1.getSize());
         this.jPanel1.add(pizarra);
         
