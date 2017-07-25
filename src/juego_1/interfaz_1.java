@@ -115,10 +115,8 @@ public class interfaz_1 extends javax.swing.JFrame {
 
    
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new interfaz_1().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new interfaz_1().setVisible(true);
         });
     }
 
